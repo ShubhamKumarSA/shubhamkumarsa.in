@@ -1,0 +1,369 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Courgette|Righteous|Permanent+Marker&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courgette', cursive;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+body {
+	background:url(../images/bgVector.jpg) repeat 0 0;
+	color: #555;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+	margin: 0 auto;
+	text-align:center;
+	/*Prevent Text Copy*/
+	-moz-user-select:none;
+	-o-user-select:none;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	/*******************/
+}
+
+.head-back {
+	text-decoration: none;
+	color: white;
+}
+
+.head-back:hover {
+	color: seagreen;
+}
+
+.ac {
+	text-align: center;
+}
+
+h2 {
+	font-size:30px;
+}
+
+h3 {
+	font-size: 23px;
+}
+
+p {
+	font-size: 17px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 3px;
+	visibility: hidden;
+}
+
+#head {
+	height: 70px !important;
+	background-color: #B4A2D9;
+	width: 100%;
+	position: sticky;
+	top:0;
+	border-bottom: 2px solid white;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+}
+
+#head .head-left {
+	width: 50%;
+	height: 70px !important;
+	float: left;
+
+	font-family: 'Righteous', cursive;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	vertical-align: middle;
+	line-height: 70px;
+	padding-left: 25px;
+	cursor: pointer;
+}
+
+#head .head-right {
+	width: 50%;
+	height: 70px !important;
+	float: right;
+
+	font-family: 'Righteous', cursive;
+	color: white;
+	font-size: 20px;
+	text-align: right;
+	vertical-align: middle;
+	line-height: 70px;
+	padding-right: 25px;
+}
+
+#content {
+	width: 90%;
+	background-color: white;
+	margin:10px auto;
+	border-radius: 30px;
+	border-bottom: 2px solid #2E8B57;
+	border-left: 2px solid #2E8B57;
+	border-right: 2px solid #2E8B57;
+}
+
+.content-head {
+	width: 100%;
+}
+
+.content-head .ld {
+	float: left;
+	width: 50%;
+}
+
+.content-head .rd {
+	float: right;
+	width: 50%;
+	padding-top: 20px;
+}
+
+
+.content-hr {
+	text-align: left;
+	width: 100%;
+	border-top: 1px solid seagreen;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.content-hr h1,h2,h3,h4,h5,h6 {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 5px 0px 15px 0px;
+}
+
+.content-hr .heading {
+	font-family: 'Ubuntu', sans-serif;
+	color: slategrey;
+	font-weight: 600;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.content-hr .click-icon {
+	text-align: right;
+	padding-right: 15px;
+}
+
+.more {
+	color: #333399;
+	font-size: 9px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.content-hr .note {
+	font-size: 13px;
+	font-family: 'Ubuntu', sans-serif;
+	color: slategrey;
+	text-align: right !important;
+	padding-right: 5px;
+}
+
+.quick-head {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-menu {
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.content-menu .menu-head {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-menu .menu-links {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color: #B4A2D9;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-links div {
+	font-size: 12px;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 5px 15px;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 1px;
+}
+
+.menu-links div:hover {
+	background-color: white;
+	color: black;
+}
+
+.fl {
+	float: left;
+	padding-left: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	color: black;
+}
+
+.quote {
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 5px;
+	font-weight:bold;
+	color: #8DC1DD;
+}
+
+span {
+	font-weight: bolder;
+	color: #2E8B57;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.logo-picture {
+	height: 100px;
+	width:auto;
+	border-radius: 50%;
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin: 25px auto;
+	border: 5px solid #B4A2D9;
+}
+
+.skill-tags {
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.skill-tags .tags:before {
+	content: '#';
+	font-size: 16px;
+	color: darkkhaki;
+}
+
+.tags {
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: inline;
+	font-weight: lighter;
+	padding: 10px 10px 10px 10px;
+	color: seagreen;
+}
+
+.skill-shuffle {
+	text-align: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.shuffle-note {
+	font-size: 12px;
+	font-family: 'Righteous', cursive;
+	padding-right: 5px;
+	color: darkturquoise;
+}
+
+.shuffle-note > a {
+	font-size: 12px;
+	font-family: 'Righteous', cursive;
+	color: lightsalmon;
+}
+
+#foot {
+	font-family: 'Ubuntu', sans-serif;
+	clear:both;
+	bottom: 5;
+	width: 100%;
+	border-radius: 30%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#foot .foot-left {
+	font-family: 'Ubuntu', sans-serif;
+	color: #B4A2D9;
+	font-size: 13px;
+	float: left;
+	padding-left: 15px;
+}
+
+#foot .foot-right {
+	font-family: 'Ubuntu', sans-serif;
+	color: #B4A2D9;
+	font-size: 13px;
+	float: right;
+	padding-right: 15px;
+	
+}
+
+.foot-right a {
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	font-size: 13px;
+}
+
+.icon-size {
+	color: darkcyan;
+	font-size: 30px;
+}
+
+.icon-size-head {
+	color: darkseagreen;
+	font-size: 20px;
+}
+
+.icon-size-foot {
+	color: black;
+	font-size: 20px;
+}
+
+.icon-size:hover,.icon-size-head:hover {
+	color: black;
+}
+
+.logo-picture {
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+	transition:transform 1s ease-in-out 0s;
+	animation-duration: 0.5s;
+	animation-name: border-expand;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes border-expand {
+	0% { border: 0px; }
+	20% { border: 1px solid #B4A2D9; }
+	40% { border: 2px solid #B4A2D9; }
+	60% { border: 3px solid #B4A2D9; }
+	80% { border: 4px solid #B4A2D9; }
+	100% { border: 5px solid #B4A2D9; }
+}
